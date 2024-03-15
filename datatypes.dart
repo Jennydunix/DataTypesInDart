@@ -43,7 +43,7 @@ void main() {
   String emoji = String.fromCharCodes([codePoint]);
   print('Emoji: $emoji');
 
-  // **Null Safety:**
+  // Null Safety:
   //   - Dart supports nullability for variables that might not have a value.
   int? nullableNumber = null;
   print('Nullable number: $nullableNumber'); // Prints "null"
